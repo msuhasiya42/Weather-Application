@@ -46,9 +46,9 @@ const Weathercard = ({tempInfo}) => {
       <article className='widget'>
 
 {/* weather icon */}
-{/* <div className='weatherIcon'>
-    <i className = {'wi ${weathermood}'}></i>
-</div> */}
+<div className='weatherIcon'>
+<i className={`wi ${weatherState}`}></i>
+</div>
 
 {/* weather info */}
 <div className='weatherInfo'>
