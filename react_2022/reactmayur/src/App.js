@@ -1,11 +1,12 @@
 import React from 'react';
-import Tempreture from "./components/weather/Tempreture";
+import Temperature from "./components/weather/Temperature";
+
 
 const App = () => {
   return(
     <>
-          <Tempreture/> 
-  </>
+          <Temperature/> 
+    </>
   ); 
   
 };
